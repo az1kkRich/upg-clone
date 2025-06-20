@@ -1,1 +1,64 @@
 @import "tailwindcss";
+
+.Mycontainer {
+    width: 100%;
+  }
+  
+  @media (min-width: 640px) {
+    .Mycontainer {
+      max-width: 640px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .Mycontainer {
+      max-width: 768px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .Mycontainer {
+      max-width: 1024px;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .Mycontainer {
+      max-width: 1280px;
+    }
+  }
+  
+  @media (min-width: 1536px) {
+    .Mycontainer {
+      max-width: 1536px;
+    }
+  }
+  
+
+.swiper-pagination {
+    bottom: 60px !important;
+    left: 2px !important;
+    z-index: 20 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  @media (max-width: 768px) {
+    .swiper-pagination {
+      display: none !important;
+    }
+  }
+  
+  .swiper-pagination-bullet {
+    width: 60px !important;
+    height: 8px;
+    border-radius: 0 !important;
+    background-color: #ccc !important;
+    opacity: 1 !important;
+    transition: background-color 0.3s ease;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #ff0096 !important;
+  }
