@@ -1,13 +1,26 @@
 import React from 'react'
 import ImageSlider from './components/home/ImageSlider'
 import Home from './pages/Home'
+import Navbar from './components/home/Navbar'
+import Footer from './components/home/Footer'
+import { Route, Router, Routes } from 'react-router-dom'
+import Login from './components/auth/Login'
 
 const App = () => {
   return (
     <div className='container mx-auto'>
 
-      <Home />
+      <Navbar />
+
+      <Routes >
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        {/* Add other routes here as needed */}
+      </Routes>
+
       
+      
+      <Footer />
     </div>
   )
 }
