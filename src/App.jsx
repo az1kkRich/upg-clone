@@ -5,6 +5,7 @@ import Navbar from './components/home/Navbar'
 import Footer from './components/home/Footer'
 import { Route, Router, Routes } from 'react-router-dom'
 import Login from './components/auth/Login'
+import OTPInput from './components/auth/OtpVerify'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Routes >
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/verify" element={<OTPInput />} />
         {/* Add other routes here as needed */}
       </Routes>
 
