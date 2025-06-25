@@ -1,32 +1,78 @@
 [
-    {
-      "title": "DarkProject ALU87 Midnight",
-      "brand": "Dark Project",
-      "price": "1175000",
-      "image": "https://files.ox-sys.com/cache/500x_/image/2e/3d/ca/2e3dcae656853932acb8b355f2cbaadb35a8e9d33706574e6937fa9085d23a21.png"
-    },
-    {
-      "title": "HyperX Cloud III Red Wireless",
-      "brand": "HyperX",
-      "price": "2100000",
-      "image": "https://files.ox-sys.com/cache/500x_/image/2e/3d/ca/2e3dcae656853932acb8b355f2cbaadb35a8e9d33706574e6937fa9085d23a21.png"
-    },
-    {
-      "title": "Redmi 27 100Hz",
-      "brand": "Redmi",
-      "price": "1849000",
-      "image": "https://files.ox-sys.com/cache/500x_/image/2e/3d/ca/2e3dcae656853932acb8b355f2cbaadb35a8e9d33706574e6937fa9085d23a21.png"
-    },
-    {
-      "title": "Xiaomi Redmi Note 13 Pro",
-      "brand": "Xiaomi",
-      "price": "4999000",
-      "image": "https://files.ox-sys.com/cache/500x_/image/2e/3d/ca/2e3dcae656853932acb8b355f2cbaadb35a8e9d33706574e6937fa9085d23a21.png"
-    },
-    {
-      "title": "Apple iPhone 15 Pro Max 256GB",
-      "brand": "Apple",
-      "price": "24990000",
-      "image": "https://files.ox-sys.com/cache/500x_/image/2e/3d/ca/2e3dcae656853932acb8b355f2cbaadb35a8e9d33706574e6937fa9085d23a21.png"
+  { 
+    "id": 1,
+    "title": "DarkProject ALU87 Midnight",
+    "brand": "Dark Project",
+    "price": "1175000",
+    "image": "https://files.ox-sys.com/cache/500x_/image/2e/3d/ca/2e3dcae656853932acb8b355f2cbaadb35a8e9d33706574e6937fa9085d23a21.png",
+    "specs": {
+      "РАЗМЕР КЛАВИАТУРЫ": "362 х 136 х 42 мм",
+      "ТИП КЛАВИАТУРЫ": "Механическая",
+      "ТИП ПЕРЕКЛЮЧАТЕЛЕЙ": "G3ms Zircon Speed",
+      "ПОДКЛЮЧЕНИЕ": "USB",
+      "ПОДСВЕТКА КЛАВИАТУРЫ": "RGB",
+      "ПОДСТАВКА ДЛЯ РУК": "Нет",
+      "ВЕС КЛАВИАТУРЫ": "1310 г",
+      "ТОРГОВАЯ МАРКА": "Dark Project",
+      "УКЛАДКА КАБЕЛЯ": "нет данных",
+      "КОЛИЧЕСТВО КЛАВИШ": "нет данных"
     }
-  ]
+  },
+  {
+    "id": 2,
+    "title": "HyperX Cloud III Red Wireless",
+    "brand": "HyperX",
+    "price": "2100000",
+    "image": "https://files.ox-sys.com/cache/500x_/image/2e/3d/ca/2e3dcae656853932acb8b355f2cbaadb35a8e9d33706574e6937fa9085d23a21.png",
+    "specs": {
+      "ТИП УСТРОЙСТВА": "Беспроводная игровая гарнитура",
+      "ИНТЕРФЕЙС": "2.4GHz Wireless, USB-C",
+      "АВТОНОМНОСТЬ": "до 120 часов",
+      "МАТЕРИАЛ АМБУШЮР": "Мягкий кожзам",
+      "МИКРОФОН": "Съемный с шумоподавлением"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Redmi 27 100Hz",
+    "brand": "Redmi",
+    "price": "1849000",
+    "image": "https://files.ox-sys.com/cache/500x_/image/2e/3d/ca/2e3dcae656853932acb8b355f2cbaadb35a8e9d33706574e6937fa9085d23a21.png",
+    "specs": {
+      "РАЗМЕР ЭКРАНА": "27 дюймов",
+      "ЧАСТОТА ОБНОВЛЕНИЯ": "100 Гц",
+      "ТИП ПАНЕЛИ": "IPS",
+      "РАЗРЕШЕНИЕ": "1920x1080",
+      "ПОДКЛЮЧЕНИЕ": "HDMI, DisplayPort"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Xiaomi Redmi Note 13 Pro",
+    "brand": "Xiaomi",
+    "price": "4999000",
+    "image": "https://files.ox-sys.com/cache/500x_/image/2e/3d/ca/2e3dcae656853932acb8b355f2cbaadb35a8e9d33706574e6937fa9085d23a21.png",
+    "specs": {
+      "ЭКРАН": "6.67 дюймов, AMOLED, 120 Гц",
+      "ПРОЦЕССОР": "Snapdragon 7s Gen 2",
+      "КАМЕРА": "200 МП (основная)",
+      "БАТАРЕЯ": "5100 мАч, быстрая зарядка 67W",
+      "ОПЕРАЦИОННАЯ СИСТЕМА": "MIUI 14 на Android 13"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Apple iPhone 15 Pro Max 256GB",
+    "brand": "Apple",
+    "price": "24990000",
+    "image": "https://files.ox-sys.com/cache/500x_/image/2e/3d/ca/2e3dcae656853932acb8b355f2cbaadb35a8e9d33706574e6937fa9085d23a21.png",
+    "specs": {
+      "ДИСПЛЕЙ": "6.7 дюймов, Super Retina XDR, 120 Гц",
+      "ПРОЦЕССОР": "Apple A17 Pro",
+      "ПАМЯТЬ": "256 ГБ",
+      "КАМЕРА": "48 МП + 12 МП + 12 МП",
+      "МАТЕРИАЛ": "Титан",
+      "ЗАРЯДКА": "MagSafe, быстрая зарядка"
+    }
+  }
+]

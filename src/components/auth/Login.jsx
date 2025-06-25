@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
 import { FiPhone } from 'react-icons/fi';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
   const [value, setValue] = useState();
+
+  const navigate = useNavigate()
 
   return (
     <div className="flex justify-center items-center my-10 bg-gray-50">
@@ -39,6 +42,7 @@ const Login = () => {
         <button
           className="mt-6 w-full bg-pink-500 text-white font-semibold py-2 rounded-lg hover:bg-pink-600 transition"
           disabled={!value}
+          onClick={() => navigate('/verify')}
         >
           Отправить код
         </button>

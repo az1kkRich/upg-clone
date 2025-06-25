@@ -73,7 +73,7 @@ const Footer = () => {
         </div>
 
         {/* Socials */}
-        <div className="flex flex-wrap items-center justify-between border-t pt-4 mt-4 text-xs text-gray-600">
+        <div className="hidden md:flex flex-wrap items-center justify-between border-t pt-4 mt-4 text-xs text-gray-600">
           <div className="flex space-x-6">
             <a href="#" className="flex items-center space-x-1 hover:text-pink-500">
               <FaInstagram className="text-pink-500" />
